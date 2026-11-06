@@ -1,0 +1,12 @@
+{
+  "allow": [{"word": "Acme", "why": "the company name, shown on the call to action"}],
+  "scenes": [
+    {"id": "S1", "type": "tease", "start": 4.0, "end": 9.5, "head": "Three things",
+     "items": [{"n": "1", "title": "Offer"}, {"n": "2", "title": "Audience"}, {"n": "3", "title": "Follow up"}],
+     "reveal": [5.1, 6.4, 7.8]},
+    {"id": "S2", "type": "stat", "start": 13.0, "end": 17.0, "value": "87%", "countTo": 87, "suffix": "%", "caption": "of businesses stall here"},
+    {"id": "S3", "type": "twoUp", "start": 21.0, "end": 26.0,
+     "left": {"head": "Symptom", "lines": ["Leads are down"]}, "right": {"head": "Cause", "lines": ["The offer is unclear"]}},
+    {"id": "S4", "type": "cta", "start": 30.0, "end": 34.0, "line1": "Want the plan?", "line2": "Book a call", "action": "Book your call", "where": "Link below"}
+  ]
+}

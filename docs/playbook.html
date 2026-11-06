@@ -1,0 +1,64 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Vibe Edit Kit Playbook</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,800&display=swap" rel="stylesheet">
+<style>
+:root{--a:#0098FF;--s:#E1F0FF;--i:#0B0B0C;--m:#5F666C;--l:#E8E6E2}
+*{box-sizing:border-box}@page{size:letter;margin:0}
+body{margin:0;font-family:Poppins,sans-serif;color:var(--i);font-size:12.5pt;line-height:1.5;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+section{width:8.5in;height:11in;padding:.8in .85in;page-break-after:always;position:relative;overflow:hidden}
+section:last-child{page-break-after:auto}
+.n{color:var(--a);font-weight:700;font-size:10pt;letter-spacing:.14em;text-transform:uppercase;margin:0 0 6px}
+h1{font-size:60pt;line-height:1;font-style:italic;font-weight:800;margin:0}h1 span{color:var(--a)}
+h2{font-size:29pt;line-height:1.1;font-weight:800;margin:0 0 18px}h3{font-size:13.5pt;margin:0 0 3px;font-weight:700}
+p{margin:0 0 12px}.m{color:var(--m)}
+.cover{background:var(--i);color:#fff;display:flex;flex-direction:column;justify-content:center}.cover p{font-size:16pt;color:#D7DADD;max-width:5.6in;margin-top:24px}
+.foot{position:absolute;bottom:.65in;left:.85in;right:.85in;font-size:9.5pt;color:#9AA0A6}
+ol.s{list-style:none;margin:10px 0 0;padding:0}ol.s li{display:flex;gap:14px;padding:10px 0;border-bottom:1px solid var(--l);align-items:flex-start}
+ol.s b.c{flex:0 0 32px;height:32px;border-radius:9px;background:var(--s);color:var(--a);display:flex;align-items:center;justify-content:center;font-size:11pt}
+.g{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.c2{border:1px solid var(--l);border-radius:12px;padding:15px 17px}.c2 p{margin:0;font-size:11pt}
+.call{background:var(--s);border-radius:12px;padding:15px 18px;margin-top:18px;font-size:11.5pt}
+table{width:100%;border-collapse:collapse;font-size:11pt;margin-top:10px}th{text-align:left;font-size:9.5pt;text-transform:uppercase;letter-spacing:.08em;color:var(--m)}th,td{padding:8px 10px 8px 0;border-bottom:1px solid var(--l);vertical-align:top}
+code{font-size:10.5pt;background:#F2F3F4;padding:1px 5px;border-radius:4px}
+</style></head><body>
+<section class="cover"><p class="n">The playbook</p><h1>Vibe<br>Edit <span>Kit</span></h1>
+<p>Raw footage in. Finished, captioned clips out. You describe the edit in plain English, and Claude Code does it.</p><div class="foot">By Ocean Gross. Built on the open-source Vibe Editing project.</div></section>
+
+<section><p class="n">01 · The idea</p><h2>Direct the edit. Don't do it.</h2>
+<p>Vibe editing means you work like a director. You say what you want, Claude Code runs the tools, and you review the result. There's no timeline to learn.</p>
+<p>The kit isn't an app. It's a folder of written rules and scripts: what makes a good clip, how to cut it, how captions should look, and what has to be true before anything counts as finished. Claude Code follows those rules on your computer.</p>
+<div class="g"><div class="c2"><h3>Your taste is the input</h3><p>Hooks, endings, things a clip must never do. You state them once in the brand interview, and every edit reads them.</p></div>
+<div class="c2"><h3>Rules beat prompts</h3><p>When something comes out wrong, the fix goes into the rules, so the next job starts from it.</p></div>
+<div class="c2"><h3>Checks over hope</h3><p>Scripts measure the output. Claude also re-listens to each clip and looks at its frames before showing you.</p></div>
+<div class="c2"><h3>Your footage is safe</h3><p>Source files are referenced in place, never changed. Everything new goes into two folders beside them.</p></div></div>
+<div class="call"><b>Two folders do all the work.</b> <code>10_WORK</code> holds the scratch files. <code>20_DELIVER</code> holds what you post.</div></section>
+
+<section><p class="n">02 · The vertical edit</p><h2>From footage to finished clip</h2><p>Open a folder of footage in Claude Code and say <b>"vibe edit this folder."</b></p>
+<ol class="s"><li><b class="c">1</b><div><h3>Inventory</h3>Check every video and look at contact sheets: what is it, who's on camera, what's a test clip.</div></li>
+<li><b class="c">2</b><div><h3>Transcribe</h3>Get every word with its timing and map the silences. Everything is cut from this.</div></li>
+<li><b class="c">3</b><div><h3>Decide what each file is</h3>A stack of hooks, a scripted read or a call. Each has its own way of being cut.</div></li>
+<li><b class="c">4</b><div><h3>Pick the clips</h3>Find a hook and a payoff, with no filler at the start and no ending mid-thought. On calls, use only your own voice and never identify a client.</div></li>
+<li><b class="c">5</b><div><h3>Cut and caption</h3>Snap cuts to words, trim dead air, burn in captions, level the voice.</div></li>
+<li><b class="c">6</b><div><h3>Check</h3>Re-transcribe what was delivered, run the quality script, look at the frames, read the burned captions.</div></li>
+<li><b class="c">7</b><div><h3>Deliver</h3>Clips plus notes: hooks, which variants pair up, and where a proof screenshot would fit.</div></li></ol>
+<div class="call"><b>One recording, many tests.</b> Read several hooks, then one body. Each hook plus the body becomes its own clip, ready to run as a trial reel.</div></section>
+
+<section><p class="n">03 · Optional graphics</p><h2>Only when a clip needs them</h2>
+<p>A clean clip with captions is finished, and many good reels have no graphics. If you want them, say <b>"add graphics to this clip."</b> When a graphic plays, you drop into a card at the bottom and the graphic takes the top. When it ends, you're back to full frame. Your head stays in frame because the kit scans for your face first.</p>
+<table><tr><th>When you say</th><th>It shows</th></tr><tr><td>A number</td><td>A big figure that counts up</td></tr><tr><td>A list</td><td>Rows that appear as you name them, or stay blurred until you do</td></tr><tr><td>A contrast</td><td>Two cards side by side</td></tr><tr><td>Steps</td><td>A chain, one step after another</td></tr><tr><td>A cycle</td><td>A ring that draws itself</td></tr><tr><td>Before and after</td><td>Bars that grow</td></tr><tr><td>Proof</td><td>Your real screenshot, uncropped</td></tr><tr><td>The ask</td><td>An end card with a button</td></tr></table>
+<div class="call"><b>Tease, then reveal.</b> Put your three points up blurred, then un-blur each as you say it. Viewers can count them, so they stay to find out what they are.</div></section>
+
+<section><p class="n">04 · Make it yours</p><h2>What you set once</h2>
+<table><tr><th>Yours</th><th>Lives in</th></tr><tr><td>Hooks, endings, the "never" list</td><td><code>brand/brand_profile.md</code></td></tr><tr><td>What makes a moment worth clipping</td><td>The clip selection rules</td></tr><tr><td>Caption font, size, position</td><td>The caption preset</td></tr><tr><td>Colors and font, if you use graphics</td><td><code>brand/graphics.json</code></td></tr><tr><td>Proof screenshots</td><td><code>brand/proof/</code></td></tr><tr><td>Music, if you want it</td><td><code>brand/music/</code></td></tr></table>
+<p style="margin-top:18px">You don't edit these by hand. The brand interview fills them in, and after that you just say what to change: <i>"make the captions bigger," "cut it tighter," "never open on a question."</i></p>
+<h3 style="margin-top:18px">Also in the kit</h3>
+<div class="g"><div class="c2"><h3>Long recordings</h3><p>Podcasts and Q&amp;As mined for moments, face-tracked to vertical, then quality-checked.</p></div>
+<div class="c2"><h3>Mids and promos</h3><p>Horizontal highlight videos and standalone animated explainers.</p></div></div></section>
+
+<section><p class="n">05 · Get running</p><h2>Set up in 15 minutes</h2>
+<ol class="s"><li><b class="c">1</b><div><h3>Get Claude Code</h3>Download the desktop app and sign in. You need a paid Claude plan.</div></li>
+<li><b class="c">2</b><div><h3>Open this folder</h3>Open the kit folder in Claude Code and paste the box from <code>ONBOARDING.md</code>.</div></li>
+<li><b class="c">3</b><div><h3>Answer the questions</h3>Claude installs what it needs, then interviews you about your brand.</div></li>
+<li><b class="c">4</b><div><h3>Make a test clip</h3>Give it one short vertical video. Say what you'd change. Repeat until you like it.</div></li></ol>
+<h3 style="margin-top:20px">What it costs</h3>
+<table><tr><th>Piece</th><th>Cost</th></tr><tr><td>Claude Code</td><td>Your Claude plan</td></tr><tr><td>Transcription</td><td>Free Groq tier, or free offline</td></tr><tr><td>Editing tools</td><td>Free and open source</td></tr><tr><td>Optional graphics (Remotion)</td><td>Free for up to 3 people. 4 or more, counting contractors, need a paid company license</td></tr></table>
+<div class="foot">The kit is MIT licensed. Remotion has its own license. See NOTICE.md.</div></section>
+</body></html>

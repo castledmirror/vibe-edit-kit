@@ -1,0 +1,17 @@
+{
+  "name": "vibe-edit-kit",
+  "owner": {
+    "name": "Ocean Gross",
+    "url": ""
+  },
+  "metadata": {
+    "description": "Vibe Edit Kit: a short-form video editing system for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "vibe-editing",
+      "source": "./plugins/vibe-editing",
+      "description": "Footage to finished captioned vertical clips, horizontal mids, and optional motion graphics."
+    }
+  ]
+}

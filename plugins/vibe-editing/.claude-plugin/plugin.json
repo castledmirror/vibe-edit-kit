@@ -1,0 +1,25 @@
+{
+  "name": "vibe-editing",
+  "displayName": "Vibe Edit Kit",
+  "version": "1.0.0",
+  "description": "Raw footage in, finished captioned vertical clips out. Vertical vibe edits, long-form mining and reframing, word-level captions, optional transcript-locked graphics, manifest-driven renders and a 6-gate audit. Bring your own API keys, footage and brand.",
+  "author": {
+    "name": "Ocean Gross",
+    "url": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "short-form",
+    "clips",
+    "captions",
+    "reframe",
+    "face-tracking",
+    "ffmpeg",
+    "yt-dlp",
+    "transcription",
+    "9:16",
+    "vertical",
+    "editing"
+  ]
+}

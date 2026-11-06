@@ -1,0 +1,10 @@
+{
+  "name": "vertical",
+  "description": "Already-vertical (9:16) talking-head footage: no reframe, crop, zoom or grade. Cut, captions, voice-level mix (no music unless configured), leadfix.",
+  "stages": [
+    "cut",
+    "captions",
+    "mix",
+    "leadfix"
+  ]
+}
